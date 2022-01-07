@@ -6,7 +6,7 @@ from dataEgine import *
 
 
 access_token = '5057421773:AAFUg_BKWuYHEANRqfFTo57ataemZ4y5uRU'
-bot = telebot.TeleBot(access_token)
+bot = telebot.TeleBot(5057421773:AAFUg_BKWuYHEANRqfFTo57ataemZ4y5uRU)
 
 
 def inline_menu():
