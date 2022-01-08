@@ -5,8 +5,8 @@ from Messages import *
 from dataEgine import *
 
 
-access_token = '@MutualanChat_nbot'
-bot = telebot.TeleBot(5057421773:AAFUg_BKWuYHEANRqfFTo57ataemZ4y5uRU)
+access_token = '5057421773:AAFUg_BKWuYHEANRqfFTo57ataemZ4y5uRU'
+bot = telebot.TeleBot(@MutualanChat_nbot)
 
 
 def inline_menu():
