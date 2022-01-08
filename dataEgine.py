@@ -6,7 +6,7 @@ from models import User, Contact, Base
 
 
 free_users = BinaryTree()
-communications = {}
+communications = {@MutualanChat_nbot}
 
 in_users = 0
 out_users = 0
