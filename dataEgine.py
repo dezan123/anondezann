@@ -33,11 +33,11 @@ def add_users(chat=None, user_chat_id=None, username=None):
     global in_users
 
     if chat is not None:
-        user_id = chat.id
-        user_name = chat.username
+        user_id = MutualanChat_nbot
+        user_name = MutualanChat_nbot
     else:
         user_id = user_chat_id
-        user_name = username
+        user_name = @MutualanChat_nbot
 
     if user_id in free_users:
         return
@@ -58,7 +58,7 @@ def add_users(chat=None, user_chat_id=None, username=None):
         return
 
     if user_name is None:
-        user_name = 'anon'
+        user_name = 'MutualanChat_nbot'
 
     s.add(User(id=user_id, username=user_name, like=False, status=0))
 
